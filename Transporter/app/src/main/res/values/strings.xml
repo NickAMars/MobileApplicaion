@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Transporter</string>
+    <string name="name">Name</string>
+    <string name="insurance">Insurance</string>
+    <string name="submit">Submit</string>
+    <string name="service_yearly">Service yearly</string>
+    <string name="yearly_salary">Yearly Salary</string>
+    <string name="gas_yearly">Gas yearly</string>
+    <string name="car_cost">Car cost :</string>
+    <string name="this_is_your_output">This is your output</string>
+    <string name="car_total">car Total:</string>
+    <string name="bus_total">Bus total:</string>
+    <string name="save">Save</string>
+    <string name="name_of_user_card_view">Name of user</string>
+    <string name="car_cost_card_view_item">Car Cost</string>
+    <string name="time_created_card_view_items">Time Created</string>
+    <string name="bus_cost_card_view">Bus cost card view</string>
+</resources>

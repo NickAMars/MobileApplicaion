@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_items"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    card_view:cardCornerRadius="50dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/name_card_view_item"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/name_of_user_card_view"
+            android:maxLines="1"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:layout_alignLeft="@+id/car_card_view_item"
+            android:layout_alignStart="@+id/car_card_view_item" />
+        <TextView
+            android:id="@+id/car_card_view_item"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/car_cost_card_view_item"
+            android:maxLines="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/date_card_view_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="97dp"
+            android:layout_marginRight="97dp"
+            android:text="@string/time_created_card_view_items"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/bus_card_view_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bus_cost_card_view"
+            android:layout_alignBaseline="@+id/car_card_view_item"
+            android:layout_alignBottom="@+id/car_card_view_item"
+            android:layout_toRightOf="@+id/car_card_view_item"
+            android:layout_toEndOf="@+id/car_card_view_item"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

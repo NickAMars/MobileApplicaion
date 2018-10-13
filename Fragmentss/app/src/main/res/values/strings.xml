@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fragmentss</string>
+    <string name="alert_dialog_message"> we need your cooperation on the enabling of your locations</string>
+    <string name="button_ok">OK</string>
+    <string name="camera">Camera</string>
+    <string name="display_picture_button_map">Map</string>
+    <string name="display_picture_next_button">NEXT</string>
+    <string name="map">MAP</string>
+    <string name="display_next_image">Next</string>
+</resources>
